@@ -1,0 +1,73 @@
+@import url
+('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;	
+	box-sizing:border-box;
+    outline:none;	
+}
+body{
+    background:url(" https://cdn.dribbble.com/users/1604313/screenshots/6905805/contact-illustration.gif ");
+	background-repeat:fixed;
+	background-size:cover;
+}
+.wrapper{
+	font-weight:bold;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	max-width:440px;
+	width:100%;
+	background:white;
+	padding:25px;
+	border:4px solid black;
+	
+}
+
+.wrapper h2{
+	text-align:center;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:maroon;
+}
+
+.wrapper .input_field{
+	margin-bottom:10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+	width:100%;
+	border:1px solid black;
+	padding:14px;
+    font-size:16px;	
+	font-family:'ubuntu',sans-serif;
+}
+.wrapper textarea{
+	height:250px;
+	resize:none;
+}
+
+.wrapper .btn input[type="Submit"]{	
+   padding:10px;
+   margin-top:15px;
+   border:0;
+   width:100%;
+   background:maroon;
+   color:mistyrose;
+   text-transform:uppercase;
+   letter-spacing:3px;
+   font-weight:bold;
+   border-radius:25px;
+   cursor:pointer;
+}
+.wrapper #error_message{
+	margin-bottom:20px;
+	padding:0px;
+	background:pink;
+	text-align:center;
+	font-size:14px;
+	transition:all 0.5s ease;
+}
