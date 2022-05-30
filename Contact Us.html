@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://image.shutterstock.com/image-vector/cute-vector-illustration-kawaii-sweets-260nw-1251353872.jpg">
+	<script src="Contact us.js"></script>
+    <link rel="stylesheet" type="text/css" href="Contact us.css">
+    
+</head>    
+<body>
+    <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div id="error_message"></div>
+        
+        <form id="myform" onsubmit="return validation()">
+            <div class="input_field">
+                <input type="text" placeholder=" Enter your name" id="name">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder=" Enter your phone" id="phone" maxlength="10">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder=" Enter your email" id="email">
+            </div>
+            <div class="input_field">
+                <textarea  id  ="message" placeholder="Cafe's details"></textarea>
+            </div>
+            <div class="btn">
+                <input type="Submit">
+            </div>
+        </form>
+        </div>
+
+
+    </body>
+</html>
